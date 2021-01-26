@@ -1,0 +1,23 @@
+{
+  "name": "css-only-tooltip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtlessmind/css-only-tooltip.git"
+  },
+  "keywords": ["css", "tooltip", "css-tooltip"],
+  "author": {
+    "name": "Rajiv",
+    "url": "https://github.com/thoughtlessmind"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoughtlessmind/css-only-tooltip/issues"
+  },
+  "homepage": "https://github.com/thoughtlessmind/css-only-tooltip#readme"
+}
