@@ -25,7 +25,6 @@ jobs:
         with:
           commit_message: "Github Action: Auto minified CSS files"
           branch: main
-          tagging_message: 'auto-minified'
 
   publish-npm:
     needs: build
