@@ -1,6 +1,6 @@
 {
   "name": "css-only-tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "basic css only tooltip",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/thoughtlessmind/css-only-tooltip.git"
   },
-  "keywords": ["css", "tooltip", "css-tooltip"],
+  "keywords": [
+    "css",
+    "tooltip",
+    "css-tooltip"
+  ],
   "author": {
     "name": "Rajiv",
     "url": "https://github.com/thoughtlessmind"
