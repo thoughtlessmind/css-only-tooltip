@@ -55,7 +55,7 @@ import 'css-only-tooltip/dist/styles.min.css';
 ```
 Now, add the text in the `data` attribute in the child components.
 ```jsx
-<data-css-only-tooltip="Hello from tooltip">Hover on me to see the tooltip</span>
+<span data-css-only-tooltip="Hello from tooltip">Hover on me to see the tooltip</span>
 ```
 ## Customization
 There are customization options provided.  
