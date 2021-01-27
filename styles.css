@@ -36,6 +36,21 @@
 /* -------------------------------------------------------------- */
 /*  ----------------------- THEMES ----------------------------- */
 
+
+/* ----- Based on user theme ----- */
+@media (prefers-color-scheme: dark) {
+  [data-css-only-tooltip]::after {
+    background-color: #222;
+    color: #fff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  [data-css-only-tooltip]::after {
+    background-color: #fff;
+    color: #222;
+  }
+}
+
 /* ----- Dark -----*/
 [data-css-only-tooltip-props~="dark"]::after {
   background-color: #222;
