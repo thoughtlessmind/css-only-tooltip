@@ -17,14 +17,14 @@ A very lightweight tooltip utitlity library, made using only `CSS`.
 		`$ yarn add css-only-tooltip`
 
 - Using jsDelivr CDN
-	```js
-	<script src="https://cdn.jsdelivr.net/npm/css-only-tooltip@latest/dist/styles.min.css"></script>
+	```html
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/css-only-tooltip@latest/dist/styles.min.css">
 	```
 
 
 - Using unpkg CDN:
-	```js
-	<script src="https://unpkg.com/css-only-tooltip@latest/dist/styles.min.css"></script>
+	```html
+	<link rel="stylesheet" href="https://unpkg.com/css-only-tooltip@latest/dist/styles.min.css">
 	```
 
 ## Quick start
