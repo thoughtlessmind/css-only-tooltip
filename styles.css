@@ -58,7 +58,7 @@
 }
 
 /* ----- Light -----*/
-[data-css-only-tooltip-props~="dark"]::after {
+[data-css-only-tooltip-props~="light"]::after {
   background-color: #fff;
   color: #222;
 }

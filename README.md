@@ -10,6 +10,8 @@ A very lightweight tooltip utitlity library, made using only `CSS` with dynamic 
 ![Css language share](https://img.shields.io/github/languages/top/thoughtlessmind/css-only-tooltip)
 
 
+![Alt Text](./static/tooltipDemo.gif)
+
 ## Insatallation
 - Using npm  
 		`$ npm install css-only-tooltip`  
@@ -27,6 +29,7 @@ A very lightweight tooltip utitlity library, made using only `CSS` with dynamic 
 	```html
 	<link rel="stylesheet" href="https://unpkg.com/css-only-tooltip@latest/dist/styles.min.css">
 	```
+
 
 ## Quick start
 `css-only-tooltip` uses only `data` html attribute for working. So, the only step is to import the `CSS`  in your file and use it.
@@ -96,3 +99,5 @@ Thre are some optional customization options are available.
      Dakr tooltip on right side
   </span>
   ```
+_Play with it live:-_  
+[![Edit css-only-tooltip-Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vigilant-nobel-d5qrn?fontsize=14&hidenavigation=1&theme=dark)
