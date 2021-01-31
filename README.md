@@ -6,8 +6,8 @@ A very lightweight tooltip utitlity library, made using only `CSS` with dynamic 
 [![NPM downloads](https://badgen.net/npm/dm/css-only-tooltip?icon=npm)](https://www.npmjs.com/package/css-only-tooltip)
 [![License](https://badgen.net/npm/license/css-only-tooltip)](https://github.com/thoughtlessmind/css-only-tooltip/blob/main/LICENSE)
 ![minified size](https://badgen.net/bundlephobia/min/css-only-tooltip?color=pink)
-[![npm version](https://badgen.net/npm/v/css-only-tooltip)](https://www.npmjs.com/package/css-only-tooltip)
-![npm version](https://img.shields.io/github/languages/top/thoughtlessmind/css-only-tooltip)
+[![npm version](https://img.shields.io/npm/v/css-only-tooltip?color=red)](https://www.npmjs.com/package/css-only-tooltip)
+![Css language share](https://img.shields.io/github/languages/top/thoughtlessmind/css-only-tooltip)
 
 
 ## Insatallation
