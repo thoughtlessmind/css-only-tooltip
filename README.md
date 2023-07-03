@@ -1,8 +1,7 @@
 # css-only-tooltip
 
-A very lightweight tooltip utitlity library, made using only `CSS` with dynamic light and dark themes. 
+A very lightweight tooltip utility library, made using only `CSS` with dynamic light and dark themes. 
 
-[![Node.js Package](https://github.com/thoughtlessmind/css-only-tooltip/workflows/Node.js%20Package/badge.svg)](https://github.com/thoughtlessmind/css-only-tooltip)
 [![NPM downloads](https://badgen.net/npm/dm/css-only-tooltip?icon=npm)](https://www.npmjs.com/package/css-only-tooltip)
 [![License](https://badgen.net/npm/license/css-only-tooltip)](https://github.com/thoughtlessmind/css-only-tooltip/blob/main/LICENSE)
 ![minified size](https://badgen.net/bundlephobia/min/css-only-tooltip?color=pink)
@@ -12,7 +11,7 @@ A very lightweight tooltip utitlity library, made using only `CSS` with dynamic 
 
 ![Alt Text](./static/tooltipDemo.gif)
 
-## Insatallation
+## Installation
 - Using npm  
 		`$ npm install css-only-tooltip`  
 		
@@ -36,7 +35,7 @@ A very lightweight tooltip utitlity library, made using only `CSS` with dynamic 
 
 #### When using CDN:-
 Add the CDN link in your `HTML` file inside the `<head>` tag. 
-And then pass the tooltip text in format:
+And then pass the tooltip text in the format:
  ```html
  <!DOCTYPE  html>
   <head>
@@ -51,7 +50,7 @@ And then pass the tooltip text in format:
 </body>
 </html>
  ```
-#### When using Package Manger (NPM/Yarn):-
+#### When using Package Manager (NPM/Yarn):-
 Import the styleSheet into the main  root level component of the App. (for eg. in `App.js` in React App)
 ```js
 import 'css-only-tooltip/dist/styles.min.css';
@@ -62,22 +61,22 @@ Now, add the text in the `data` attribute in the child components.
 ```
 ## Customization
 There are customization options provided.  
-Provide the customization options in a space seperated string in the data attribute like this:-
+Provide the customization options in a space separate string in the data attribute like this:-
 ``` html
 <p data-css-only-props="customization options">
 ```
 
 ### Options:
-Thre are some optional customization options are available.
+There are some optional customization options available.
   - #### Positions:
-	  There are four positions provided. `Bottom` is default option.
+	  There are four positions provided. `Bottom` is the default option.
 	  - `top`
 	  - `right`
 	  - `bottom`
 	  - `left`
 	 
   - #### Themes:  
-	  This supports the user device's theme dynamically. There's no need to specify theme spereately.
+	  This supports the user device's theme dynamically. There's no need to specify the theme separately.
 	  Beside this, there are two theme options provided for customization. `light` is default option.
 	  - `dark`
 	  - `light`
@@ -96,7 +95,7 @@ Thre are some optional customization options are available.
   <span 
     data-css-only-tooltip="Tooltip 2 bottom" 
     data-css-only-tooltip-props="light bottom">
-     Dakr tooltip on right side
+     Dark tooltip on the right side
   </span>
   ```
 _Play with it live:-_  
